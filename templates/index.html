@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Email Spam Classification
+        </title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <form method="GET" action="/result">
+            <h3>Check Spam</h3>
+                <div><input type="text-area" name="email" placeholder="put data" required></div>
+                <div>{{ result }}</div>
+                <button type="submit" name="Register">Check spam </button>
+            </form>
+    </body>
+</html>
