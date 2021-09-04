@@ -25,4 +25,4 @@ def result():
         stm="This is A Spam Email"
         htmlcode=render_template("index.html",result=stm)
         return htmlcode
-app.run(port=1111,host="192.168.99.1")
+app.run(port=1111,host='0.0.0.0')
